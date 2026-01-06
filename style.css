@@ -10,6 +10,7 @@ html,body{
     overflow-x: hidden !important;
     margin: 0px;
     cursor: none !important;
+    font-display: swap;
   }
 
 
@@ -320,6 +321,7 @@ html,body{
 }
 .about-right-content h1{
     font-size: 28px;
+    font-weight: 600;
     margin-bottom: 5px;
 }
 .about-right-content h2{
@@ -975,6 +977,7 @@ html,body{
     background-color: var(--bg-tertiary);
     color: #333;
     transition: all 0.3s ease;
+    cursor: none;
 } 
 .contact-left input:focus{
     outline: none;
@@ -993,6 +996,7 @@ html,body{
     border-radius: 5px;
     font-family: "Poppins";
     transition: all 0.3s ease;
+    cursor: none;
 }
 .contact-left textarea:focus{
     outline: none;

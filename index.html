@@ -16,9 +16,8 @@
     <script src="https://unpkg.com/mouse-follower@1/dist/mouse-follower.min.js"></script>
     <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
 </head>
-<body>
-      
-    <div class="loader-container">
+<body> 
+    <div class="loader-container" loading="lazy">
           <div class="banter-loader">
         <div class="banter-loader__box"></div>
         <div class="banter-loader__box"></div>
@@ -32,10 +31,10 @@
     </div>
     </div>
 
-
+<main> 
     <!-- The nav section of the porfolio  -->
 
-    <div class="Navigation-container" id="myBox" >
+    <div class="Navigation-container" id="myBox" loading="lazy" >
         
         <h2 class="Navigation-logo" >Nag</h2>
         
@@ -60,7 +59,7 @@
     </div>
 
     <!-- This is the Hero section of the porfolio -->
-    <div class="hero-container" id="home">
+    <div class="hero-container" id="home" loading="lazy">
 
         <div class="hero-left">
             <div class="personal-info">
@@ -92,7 +91,7 @@
             </div>
         </div>
         
-        <div class="hero-right">
+        <div class="hero-right" loading="lazy">
             <img data-cursor-text="Dark Mode" data-cursor-stick src="Assests/line-art.jpg" alt="Hero-left image">
         </div>
     </div>
@@ -101,7 +100,7 @@
     
     <!-- This is the project box section of the porfolio -->
    
-    <div class="project-box-container">
+    <div class="project-box-container" loading="lazy">
        
         <div class="project-box">
             <div class="project">
@@ -127,7 +126,7 @@
 
     <!-- this is the about section of the porfolio -->
 
-    <div class="about-container" id="about">
+    <div class="about-container" id="about" loading="lazy">
         <div class="about-left">
             <div data-aos="fade-right" class="image-box">
                 <img src="Assests/my picture.jpg" loading="lazy" alt="my picture">
@@ -151,7 +150,7 @@
     </div>
 
     <!-- This is the service sectin of the portfolio -->
-    <div class="service-container" id="service">
+    <div class="service-container" id="service" loading="lazy">
         <p data-aos="fade-left" data-aos-offset="400">Service</p>
         <h4 data-aos="fade-left"data-aos-offset="400">What I DO</h4>
         <p data-aos="fade-left"data-aos-delay="100" data-aos-offset="400" style="margin-top: -10px ;">I create modern, responsive, and user-friendly websites that bring ideas to life and help businesses grow.</p>
@@ -178,7 +177,7 @@
 
     <!-- this is the skills section of the porfolio -->
 
-    <div class="skills-container">
+    <div class="skills-container" loading="lazy">
         <p data-aos="fade-right" data-aos-delay="100" data-aos-offset="400">Skills</p>
         <h4 data-aos="fade-right" data-aos-delay="100" data-aos-offset="400">What I DO</h4>
         <p data-aos="fade-right" style="margin-top: -10px;" data-aos-delay="100" data-aos-offset="400">I create modern, responsive, and user-friendly websites that bring ideas to life and help businesses grow.</p>
@@ -218,7 +217,7 @@
         </div>
     <!--check my work section of the protfolio-->
 
-     <div class="work-text" id="project">
+     <div class="work-text" id="project" loading="lazy">
         <p data-aos="fade-left" data-aos-delay="100" >Portfolio</p>
         <h4 data-aos="fade-left" data-aos-delay="200">Check My Wonderfull Work</h4>
         <p data-aos="fade-left" data-aos-delay="200" style="margin-top: -10px;">A collection of my projects showcasing creativity, design, and problem-solving. Each piece reflects my skills, passion, and attention to detail.</p>
@@ -233,7 +232,9 @@
                         <h2 style="font-weight: 600;font-size: 1.25rem; color: white;">Login Page</h2>
                         <div class="overlay-button">
                             <button aria-label="Magnifying Glass"><i class="fa-solid fa-magnifying-glass"></i></button>
-                            <a aria-label="Login Page" href="../login page (frontend)/index.html"><button><i class="fa-solid fa-link"></i></button></a>
+                            <a aria-label="Login Page" href="../login page (frontend)/index.html">
+                                <button aria-label="Link"><i class="fa-solid fa-link"></i></button>
+                            </a>
                         </div>
                     </div>
                     </div>
@@ -267,7 +268,7 @@
                 <img src="Assests/folio-2.jpg" alt="project image ">
             </div>
             <div class="box5" data-aos="fade-up" data-aos-delay="500" data-aos-offset="200">
-                <img src="Assests/folio-5.jpg">
+                <img src="Assests/folio-5.jpg" alt="project image ">
                 <div class="box5-overlay">
                      <div class="overlay-content-5">
                         <h2 style="font-weight: 600;font-size: 1.25rem; color: white;">Project Title</h2>
@@ -309,7 +310,7 @@
     
 <!-- review section of the portfolio  -->
 
-    <div class="Review" id="review">
+    <div class="Review" id="review" loading="lazy">
         <p  data-aos="fade-left" data-aos-delay="100" data-aos-offset="200">Review</p>
         <h4 data-aos="fade-left" data-aos-delay="200" data-aos-offset="200">What People Say About Me </h4>
         <p  data-aos="fade-left" data-aos-delay="300" data-aos-offset="400" style="margin-top: -10px;">I’ve had the privilege of working with amazing clients and colleagues. Here’s what they have to say about my work, dedication, and creativity.</p>
@@ -324,7 +325,7 @@
 <!-- blog section of the portfolio  -->
 
     
-    <div class="blog" id="blog" >
+    <div class="blog" id="blog" loading="lazy" >
         <p data-aos="fade-left" data-aos-delay="100" data-aos-offset="200">My Blog</p>
         <h4 data-aos="fade-left" data-aos-delay="200" data-aos-offset="100">Latest News </h4>
         <p data-aos="fade-left" data-aos-delay="300" data-aos-offset="100" style="margin-top: -10px;">Here you’ll find my latest blog posts, thoughts, and updates about technology, gaming, and personal experiences.</p>
@@ -388,7 +389,7 @@
 
 <!-- hire me button of the portfolio -->
     
-    <div class="hire-me-container" data-aos="zoom-in"data-aos-offset="300">      
+    <div class="hire-me-container" data-aos="zoom-in"data-aos-offset="300" loading="lazy">      
         <div class="hire-me-box">
             <div class="hire-me-box-left">
                 <h3>Hire me For Your Project!!</h3>
@@ -402,7 +403,7 @@
 
 
 <!-- contact section of the portfolio  -->
-     <div class="contact" id="contact">
+     <div class="contact" id="contact" loading="lazy">
         <p>Contact</p>
         <h4>Get In Touch With me  </h4>
         <p style="margin-top: -10px;">Have a project in mind or need a consultation? Get in touch! I'm available for new opportunities and happy to discuss how I can help your team.</p>
@@ -443,14 +444,14 @@
    <!-- the map section of the portfolio  -->
     
    <!-- data-aos="zoom-out" data-aos-offset="200" -->
-   <div class="map-box" data-aos="zoom-out" data-aos-offset="200"> 
+   <div class="map-box" data-aos="zoom-out" data-aos-offset="200" loading="lazy"> 
         <div class="map-overlay"></div>
         <iframe title="Google-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3834887.362979616!2d81.79623474599778!3d20.17542611454318!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a226aece9af3bfd%3A0x133625caa9cea81f!2sOdisha!5e0!3m2!1sen!2sin!4v1759468054958!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
 
     <!-- the footer section of the portfolio -->
      
-    <div class="footer-container">
+    <div class="footer-container" loading="lazy">
         <div class="footer-box">
             <div class="footer-left">
                 <p>Copyright 2025 © <span class="footer-text">Avilash Ranjan Nag</span></p>
@@ -474,7 +475,7 @@
         </div>    
     </div>
 
-       <!-- <div class="theme-toggle">
+<!-- <div class="theme-toggle">
             <button id="darkModeToggle" class="dark-mode-btn" title="Toggle Dark Mode">
                 <i class="fas fa-moon"></i>
             </button>
@@ -484,38 +485,38 @@
     <button id="scrollToTopBtn" class="scroll-to-top">
         <i class="fas fa-arrow-up"></i>
     </button>
+</main>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/odometer.js/0.4.7/odometer.min.js" integrity="sha512-v3fZyWIk7kh9yGNQZf1SnSjIxjAKsYbg6UQ+B+QxAZqJQLrN3jMjrdNwcxV6tis6S0s1xyVDZrDz9UoRLfRpWw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="main.js"></script>
+<script>
+    // Hamburger menu - direct implementation
+    const hamburger = document.querySelector('.hamburger-lines');
+    const navLinks = document.querySelector('.Navigation-links');
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/odometer.js/0.4.7/odometer.min.js" integrity="sha512-v3fZyWIk7kh9yGNQZf1SnSjIxjAKsYbg6UQ+B+QxAZqJQLrN3jMjrdNwcxV6tis6S0s1xyVDZrDz9UoRLfRpWw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="main.js"></script>
-    <script>
-        // Hamburger menu - direct implementation
-        const hamburger = document.querySelector('.hamburger-lines');
-        const navLinks = document.querySelector('.Navigation-links');
+    if (hamburger && navLinks) {
+        hamburger.addEventListener('click', function(e) {
+            e.stopPropagation();
+            navLinks.classList.toggle('active');
+            hamburger.classList.toggle('active');
+        });
 
-        if (hamburger && navLinks) {
-            hamburger.addEventListener('click', function(e) {
-                e.stopPropagation();
-                navLinks.classList.toggle('active');
-                hamburger.classList.toggle('active');
+        document.querySelectorAll('.Navigation-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('active');
+                hamburger.classList.remove('active');
             });
+        });
 
-            document.querySelectorAll('.Navigation-links a').forEach(link => {
-                link.addEventListener('click', () => {
-                    navLinks.classList.remove('active');
-                    hamburger.classList.remove('active');
-                });
-            });
-
-            document.addEventListener('click', (event) => {
-                if (!navLinks.contains(event.target) && !hamburger.contains(event.target)) {
-                    navLinks.classList.remove('active');
-                    hamburger.classList.remove('active');
-                }
-            });
-        }
-    </script>
-    <script>
+        document.addEventListener('click', (event) => {
+            if (!navLinks.contains(event.target) && !hamburger.contains(event.target)) {
+                navLinks.classList.remove('active');
+                hamburger.classList.remove('active');
+            }
+        });
+    }
+</script>
+<script>
   // Simulate loading for 2 seconds
   setTimeout(() => {
     document.body.classList.add('loaded');
